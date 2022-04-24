@@ -1,6 +1,8 @@
-import animals.Cat;
-import animals.Dog;
-import animals.Runner;
+package day1;
+
+import day1.animals.Cat;
+import day1.animals.Dog;
+import day1.animals.Runner;
 
 public class AnimalMain {
 

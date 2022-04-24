@@ -1,7 +1,6 @@
-import animals.Runner;
-import vehicles.Car;
+package day1;
 
-import java.util.Arrays;
+import day1.vehicles.Car;
 
 public class VehiclesMain {
 

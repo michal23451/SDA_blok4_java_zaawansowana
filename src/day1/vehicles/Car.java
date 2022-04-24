@@ -1,4 +1,4 @@
-package vehicles;
+package day1.vehicles;
 
 public class Car {
 

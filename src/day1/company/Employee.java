@@ -1,4 +1,4 @@
-package company;
+package day1.company;
 
 public class Employee {
 

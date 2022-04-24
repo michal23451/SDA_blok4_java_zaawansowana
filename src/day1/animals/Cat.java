@@ -1,4 +1,4 @@
-package animals;
+package day1.animals;
 
 public class Cat extends Animal implements Runner {
 

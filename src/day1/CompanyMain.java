@@ -1,6 +1,8 @@
-import company.Employee;
-import company.Manager;
-import company.Secretary;
+package day1;
+
+import day1.company.Employee;
+import day1.company.Manager;
+import day1.company.Secretary;
 
 public class CompanyMain {
 
