@@ -21,5 +21,4 @@ public class Address {
         return place;
     }
 
-
 }

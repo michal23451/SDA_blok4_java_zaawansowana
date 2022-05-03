@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 import static day2.homework.StudentDatabase.*;
 
-
 public class HighSchoolMain {
     public static void main(String[] args) {
         StudentDatabase base = new StudentDatabase(15);
@@ -95,6 +94,5 @@ public class HighSchoolMain {
             }
 
         } while (menu != 0);
-
     }
 }

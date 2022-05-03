@@ -1,12 +1,9 @@
 package day2.homework;
 
-import javax.swing.text.DateFormatter;
-import java.text.DateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
 import java.util.UUID;
-import java.util.stream.IntStream;
 
 public class Student {
     private final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("dd.MM.yyyy");
@@ -25,7 +22,6 @@ public class Student {
      *
      *
      */
-
 
     public int getPoints() {
         return points;
@@ -72,7 +68,5 @@ public class Student {
     public LocalDate getBirthDate() {
         return birthDate;
     }
-
-
 
 }

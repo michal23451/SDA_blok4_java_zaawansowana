@@ -110,7 +110,6 @@ public class StudentDatabase {
 
     }
 
-
     public void markStudentAsGraduated(String id) {
         for (Student element : arrayOfStudents) {
             if (element != null && element.getId().toString().equals(id)) {
@@ -138,8 +137,6 @@ public class StudentDatabase {
         }
         return activeStudentsList;
     }
-
-
 
     /*
      *
