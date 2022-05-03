@@ -1,0 +1,29 @@
+1. Utwórz klasę Student, która przechowuje takie informacje jak:
+ - id (UUID.randomUUID())
+ - imie i nazwisko
+ - data urodzenia
+ - adres zamieszkania
+ - liczba punktów (random 1 - 50)
+
+2. Utwórz klasę Address, która przechowuje takie informacje jak:
+ - miejscowość
+ - ulica i numer domu
+
+3. Utwórz klasę StudentDatabase, która będzie posiadała metody:
+ - void addStudent(student) - dodaje studenta jeśli ma więcej niż 25 punktów, inaczej rzuca exception
+ - Student getStudent(id)
+ - void changeAddress(id, address)
+ - List<Student> getStudentsFromCity(miejscowość)
+ - List<Student> getStudentsOrderedByAge()
+ - void punishStudents(age, city) - obniża ilość punktów o 10 dla studentów spełniających kryteria i usuwa z bazy tych co mają mniej niż 30 punktów
+
+4. W klasie HighSchoolMain:
+ - stwórz bazę studentów i dodaj 15 przykładów
+ - przetestuj działanie metod
+ 
+5. Zadanie dodatkowe:
+ - do klasy StudentDatabase dodaj metody:
+  - void markStudentAsGraduated(id)
+  - List<Student> getActiveStudents()
+ - nie modyfikuj klasy Student
+  
