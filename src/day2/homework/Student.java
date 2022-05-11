@@ -13,7 +13,7 @@ public class Student {
     private LocalDate birthDate;
     private Address address;
     //private int points = new Random().nextInt(1, 50);
-    private int points = new Random().nextInt(26, 50); //testowo, zamiast powyższej linii
+    private int points = new Random().nextInt(1, 50); //testowo, zamiast powyższej linii
 
     /*
      *

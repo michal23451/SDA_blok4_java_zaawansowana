@@ -33,7 +33,11 @@ public class StudentDatabase {
         student = new Student(name, birthDate, place, streetAndNumber);
 
         if (student.getPoints() <= 25) {
-            throw new RuntimeException("Student musi mieć więcej niż 25 punktów");                   // rzucamy włanym wyjątkiem
+            try {
+                throw new Exception("Student musi mieć więcej niż 25 punktów");                   // rzucamy włanym wyjątkiem
+            } catch (Exception e) {
+                System.out.println("Nie dodano studenta (ma mniej niż 25 punktów). Liczba punktów studenta: " + student.getPoints());
+            }
         } else if (counter < arrayOfStudents.length) {
             arrayOfStudents[counter] = student;
             counter++;
@@ -151,8 +155,11 @@ public class StudentDatabase {
         student = new Student(name, birthDate, place, streetAndNumber);
 
         if (student.getPoints() <= 25) {
-            System.out.println("Liczba punktów studenta: " + student.getPoints());
-            throw new RuntimeException("Student musi mieć więcej niż 25 punktów");                   // rzucamy włanym wyjątkiem
+            try {
+                throw new Exception("Student musi mieć więcej niż 25 punktów");                   // rzucamy włanym wyjątkiem
+            } catch (Exception e) {
+                System.out.println("Nie dodano studenta (ma mniej niż 25 punktów). Liczba punktów studenta: " + student.getPoints());
+            }
         } else if (counter < arrayOfStudents.length) {
             arrayOfStudents[counter] = student;
             counter++;
