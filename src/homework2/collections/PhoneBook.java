@@ -1,7 +1,5 @@
 package homework2.collections;
 
-import day2.electronics.Phone;
-
 import java.util.*;
 import java.util.Map.Entry;
 
